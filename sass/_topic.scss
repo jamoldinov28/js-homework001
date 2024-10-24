@@ -1,0 +1,47 @@
+.topic{
+    margin-top: 60px;
+   &__text{
+    margin-left: 300px;
+    padding: 50px 0;
+   }
+    h2{
+        font-size: 30px;
+        font-weight: 800;
+        margin-bottom: 20px;
+    }
+    p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    input{
+        width: 80%;
+        height: 60px;
+        background: rgba(18, 18, 18, .9);
+        padding: 20px;
+        font-size: 20px;
+        border: none;
+        margin-top: 30px;
+        color: #fff;
+        margin-bottom: 70px;
+    }
+    &__btn{
+        
+        width: 200px;
+        height: 40px;
+        border: none;
+        background: #ec008c;
+        color: #fff;
+        border-radius: 2px;
+        margin-bottom: 100px;
+        cursor: pointer;
+    }
+    &__btn:active{
+        transform: scale(.96);
+    }
+}
+
+@media (max-width: 1333px) {
+    .topic{
+       margin-left: -250px;
+    }
+}
